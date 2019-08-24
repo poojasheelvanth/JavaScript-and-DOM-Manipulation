@@ -37,6 +37,12 @@ function datetimeSelect(){
     displayData(new_table);
 }
 
+dateInputText.on("change", datetimeSelect)
+
+
+
+
+
 // function citySelect(){
 //     //don't refresh the page!
 //     d3.event.preventDefault();
@@ -82,7 +88,7 @@ function datetimeSelect(){
 //     displayData(new_table);
 // }
 // event listener to handle change and click
-dateInputText.on("change", datetimeSelect)
+
 // cityInputText.on("change",citySelect)
 // stateInputText.on("change",stateSelect)
 // countryInputText.on("change",countrySelect)
